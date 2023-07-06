@@ -73,12 +73,17 @@
     align-items: center;
     flex-direction: row-reverse;
     margin: 10px;
+
     
 }
 .about-title{
     text-align: center;
     padding-top: 10px;
     margin-top: 10px;
+    color: white;
+    background-image: url('./images/background.png'),
+    linear-gradient(45deg, #232222,#564c4c);
+    height: 10vh;
 }
 .box{
     width: 230px;
@@ -105,5 +110,58 @@
 }
 .service-container{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-around;  
+    background-image: url('./images/background.png'),
+    linear-gradient(45deg, #232222,#564c4c);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-items: center;
+
+}
+.main-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+  
+    background-color: black;
+    color: white;
+}
+.footer-logo{
+    width: 170px;
+   
+}
+.menu-1{
+    padding-right: 15px;
+    margin-left: 30px;
+}
+.menu-2{
+    
+    margin: 15px;
+}
+.menu-3{
+    margin: 15px;
+}
+.menu-4{
+    margin: 15px;
+}
+.footer-sub{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+.footer-item{
+    padding-top: 8px;
+    list-style-type: none;
+    margin-top: 5px;
+}
+.Copyright{
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 40px;
+    border-top: 1px solid white;
+    padding-top: 15px;
+    
 }
